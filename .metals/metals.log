@@ -1,0 +1,33 @@
+2023.04.28 14:27:21 INFO  Started: Metals version 0.11.12 in workspace 'C:\Users\ALUNO\Documents\olamundo\turismocba' for client Visual Studio Code 1.77.3.
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFORMA합ES: Flyway Community Edition 9.16.3 by Redgate
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMA합ES: See release notes here: https://rd.gt/416ObMi
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFORMA합ES: 
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFORMA합ES: Database: jdbc:h2:file:C:\Users\ALUNO\Documents\olamundo\turismocba\.metals\metals (H2 2.1)
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFORMA합ES: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.command.DbValidate validate
+INFORMA합ES: Successfully validated 4 migrations (execution time 00:00.010s)
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFORMA합ES: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFORMA합ES: Current version of schema "PUBLIC": << Empty Schema >>
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "1 - Create tables"
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "2 - Server discovery"
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFORMA합ES: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+abr 28, 2023 2:27:21 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFORMA합ES: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.031s)
+2023.04.28 14:27:21 INFO  time: initialize in 0.46s
+2023.04.28 14:27:21 WARN  Build server is not auto-connectable.
+2023.04.28 14:27:21 WARN  no build tool detected in workspace 'C:\Users\ALUNO\Documents\olamundo\turismocba'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.04.28 14:29:04 INFO  Shutting down server
+2023.04.28 14:29:04 INFO  shutting down Metals
+2023.04.28 14:29:04 INFO  Exiting server
